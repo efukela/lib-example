@@ -1,0 +1,42 @@
+{
+  "name": "lib-example",
+  "version": "1.0.0",
+  "description": "Example repository to demonstrate how to write libraries in Typescript.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+  "prepare": "npm run build",
+  "build": "tsc",
+  "test": "jest"
+},
+"jest": {
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "js"
+  ],
+  "testRegex": "^.+\\.spec\\.ts$"
+},
+  "files": [
+    "lib"
+  ],  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efukela/lib-example.git"
+  },
+  "keywords": [],
+  "author": "Mikk Küttim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efukela/libs/issues"
+  },
+  "homepage": "https://github.com/efukela/libs#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.4"
+  }
+}

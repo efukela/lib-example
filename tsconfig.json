@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "amd",
+    "declaration": true,
+    "outFile": "lib/index.js",
+    "strict": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
